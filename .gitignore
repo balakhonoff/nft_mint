@@ -1,0 +1,110 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@balakhonoff 
+OpenZeppelin
+/
+openzeppelin-contracts
+Public
+Code
+Issues
+115
+Pull requests
+36
+Actions
+Security
+11
+Insights
+openzeppelin-contracts/.gitignore
+@mdgeorge4153
+mdgeorge4153 Add Certora's Governance verification rules (#2997)
+…
+Latest commit 915ca18 on 28 Dec 2021
+ History
+ 14 contributors
+@frangio@spalladino@maraoz@cgewecke@RedLikeRosesss@fvictorio@shellygr@aupiff@nventuro@mdgeorge4153@shrugs@mswezey23
+64 lines (48 sloc)  730 Bytes
+
+*.swp
+*.swo
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+allFiredEvents
+scTopics
+
+# Coverage directory used by tools like istanbul
+coverage
+coverage.json
+coverageEnv
+
+# node-waf configuration
+.lock-wscript
+
+# Dependency directory
+node_modules
+
+# Debug log from npm
+npm-debug.log
+
+# local env variables
+.env
+
+# truffle build directory
+build/
+
+# macOS
+.DS_Store
+
+# truffle
+.node-xmlhttprequest-*
+
+# IntelliJ IDE
+.idea
+
+# docs artifacts
+docs/modules/api
+
+# only used to package @openzeppelin/contracts
+contracts/build/
+contracts/README.md
+
+# temporary artifact from solidity-coverage
+allFiredEvents
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
+
+# hardhat
+cache
+artifacts
+
+# Certora
+.certora*
+.last_confs
+certora_*
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+You have unread notifications
