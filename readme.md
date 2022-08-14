@@ -1,10 +1,10 @@
 How to deploy a smart contract and call its methods
 
-'''
+```
 cd ~/Documents/defi_projects
 mkdir nft_mint
 cd nft_mint
-'''
+```
 
 Add the folder into Atom
 
